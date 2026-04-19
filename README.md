@@ -70,5 +70,7 @@ The board is completely self-contained and does not require an external DC brick
 
 1. Install [KiCad 9.0.7](https://www.kicad.org/) (or newer).
 2. Clone this repository:
-   ```bash
-   git clone [https://github.com/GirishTabaraddi/ESP32-Ethernet-Gateway-KiCAD.git](https://github.com/GirishTabaraddi/ESP32-Ethernet-Gateway-KiCAD.git)
+
+```bash
+git clone https://github.com/GirishTabaraddi/ESP32-Ethernet-Gateway-KiCAD.git
+```
