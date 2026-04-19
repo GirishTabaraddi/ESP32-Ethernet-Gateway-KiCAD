@@ -4,8 +4,6 @@
 [![ESP32](https://img.shields.io/badge/ESP32-WROOM--32D-red.svg?style=for-the-badge&logo=espressif)](https://www.espressif.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> A professionally structured, production-ready KiCad schematic integrating an ESP32-WROOM-32D with wired dual-port Ethernet, high-speed USB-C debugging, and an onboard AC/DC power supply.
-
 ---
 
 ## 📖 Project Overview
