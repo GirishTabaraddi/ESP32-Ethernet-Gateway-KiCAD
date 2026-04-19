@@ -1,0 +1,146 @@
+(footprint "MOV14D471K"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MOV-14D471K")
+	(tags "Varistor")
+	(property "Reference" "RV**"
+		(at 0 0.005 0)
+		(layer "F.SilkS")
+		(uuid "c325158f-5fec-4790-8c6b-8edf9917fd9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MOV14D471K"
+		(at 3.75 1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "64823e55-96fc-46d0-876e-fcc31ffd07d0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d068a005-1fd3-4d93-bc6d-2ac2bfdd43a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "174508a3-43c7-4b6f-8561-5cfd7fed8970")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -8.38 -2.83)
+		(end 8.38 2.84)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0679f6be-c7e6-4a4d-b3b2-6a745c28bfde")
+	)
+	(fp_line
+		(start -8.25 -2.7)
+		(end 8.25 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "275e2fb1-4527-4e00-a894-59bd7fc381fb")
+	)
+	(fp_line
+		(start -8.25 2.7)
+		(end -8.25 -2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a05bdd78-6a34-4156-b47f-28b97e82c908")
+	)
+	(fp_line
+		(start 8.25 -2.7)
+		(end 8.25 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6266f04a-efe1-424f-ad19-99d9b0651650")
+	)
+	(fp_line
+		(start 8.25 2.7)
+		(end -8.25 2.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c5dd872-6279-4cbe-907f-b08d706561e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "675787d2-5f94-4baf-ada3-972b15e2a43c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.75 -1.6)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "361a5576-f431-4fd9-9487-2f840f397fbe")
+	)
+	(pad "2" thru_hole circle
+		(at 3.75 1.6)
+		(size 1.9 1.9)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d1b1ab04-38db-4632-9fdf-5c49cb3d7e64")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/3d/MOV-14D471K.stp"
+		(offset
+			(xyz 0 0 11.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

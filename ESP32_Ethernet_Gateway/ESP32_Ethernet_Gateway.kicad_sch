@@ -1,0 +1,206 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0edfa337-cc3b-41e3-8e76-8e11fa088990")
+	(paper "A4")
+	(title_block
+		(title "ESP32-Ethernet-Gateway")
+		(date "2026-04-19")
+		(rev "v1.1")
+		(comment 1 "Engineer: Girish Tabaraddi")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 82.55) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ac8167-b763-4761-a91a-0dccf24daa46")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 113.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98faa01-dbcc-4332-9125-06f3dcf5fbfc")
+	)
+	(sheet
+		(at 177.8 66.04)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25633e79-83d8-45cf-8427-6a597e921bf2")
+		(property "Sheetname" "switch"
+			(at 177.8 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switch.kicad_sch"
+			(at 177.8 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_Ethernet_Gateway"
+				(path "/0edfa337-cc3b-41e3-8e76-8e11fa088990"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 113.03 67.31)
+		(size 39.37 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6c8429bd-cb9b-4df1-8f2c-b25dac4d131b")
+		(property "Sheetname" "som"
+			(at 113.03 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "som.kicad_sch"
+			(at 113.03 105.3596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 113.03 82.55 180)
+			(uuid "2a754734-fd79-42f3-b22e-b3fa054792dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_NP" bidirectional
+			(at 113.03 85.09 180)
+			(uuid "12bcb5f7-2578-4fe4-9921-6a004cfbbef1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ESP32_Ethernet_Gateway"
+				(path "/0edfa337-cc3b-41e3-8e76-8e11fa088990"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 67.31)
+		(size 38.1 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b75f8f61-c714-4bf8-a0c4-a00b5f7a01b7")
+		(property "Sheetname" "power"
+			(at 50.8 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 50.8 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 88.9 82.55 0)
+			(uuid "c21c494c-da9c-45c8-a442-9343b079e8fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_NP" bidirectional
+			(at 88.9 85.09 0)
+			(uuid "af2a8619-3985-4122-a381-6033ba25667d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESP32_Ethernet_Gateway"
+				(path "/0edfa337-cc3b-41e3-8e76-8e11fa088990"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

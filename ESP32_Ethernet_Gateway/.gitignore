@@ -1,0 +1,39 @@
+# Temporary, backup, and autosave files
+*.tmp
+*.bak
+*.bck
+*.kicad_prl
+*.kicad_pro-bak
+*~*
+poppy-carnode-core-backups/
+
+# Autosave backups for schematic & PCB
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad's lock files
+*.lck
+*.lock
+
+# KiCad 3D viewer cache
+.fv/
+
+# Simulation outputs
+*.raw
+*.cir.out
+*.spice
+
+# Manufacturer files
+*.kicad_dru
+
+# User-specific settings
+*.kicad_wks
+*.kicad_ana
+*.kicad_annotate
+eeschema.autosave
+pcbnew-autosave.kicad_pcb
+
+# Misc
+__pycache__/
+*.pyc

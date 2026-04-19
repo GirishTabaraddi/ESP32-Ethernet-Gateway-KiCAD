@@ -1,0 +1,109 @@
+(footprint "EP3WS10RJ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3.41 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "63609494-a115-4d90-b0d1-bb210b4c89c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EP3WS10RJ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5fa49c9a-94bb-4f9c-9757-8fed27358372")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d40c3a92-b292-4e0e-b89f-3402e672c3f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6a7e1ba2-c6cc-4b06-a799-ee4b387463bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -11 -2.8)
+		(end 11 2.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0238e358-df49-419b-9e8b-16591bf56249")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f8a12c84-74f3-4ede-871d-9d0224bd6a64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d6e33823-70b2-4850-8bf8-36c2cf5d5ae4")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dc94040b-1b27-4825-9e4c-d3d09d7af7ff")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/3d/EP3WS10RJ.stp"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)

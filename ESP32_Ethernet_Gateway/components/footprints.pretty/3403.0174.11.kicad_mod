@@ -1,0 +1,116 @@
+(footprint "3403.0174.11"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "91bd3dd1-bf50-4321-a15a-04a2c0ed5e9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3403.0174.11"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3e930ca-5d07-4ea1-8ea0-ac7bf0922a20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ad02a4-cb84-42ce-8b70-7942b82a5ba1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a916278e-a7b0-4b2c-985c-f9c20dda8470")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.18 -1.63)
+		(end 5.18 1.63)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8799ce0b-4516-4496-9b0e-e55e28600538")
+	)
+	(fp_rect
+		(start -5.05 -1.5)
+		(end 5.05 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c4cf9ddc-9d25-410b-826f-e445d989533c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "86be86dc-c7b2-465e-9588-d30b968ab7d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.25 0)
+		(size 1.8 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d12c21ab-d915-4c7f-968f-58edd2c3a30b")
+	)
+	(pad "2" smd rect
+		(at 4.25 0)
+		(size 1.8 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8eb2471d-f98c-410d-9c34-fbcae14cd58c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/components/3d/3403.0174.11.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
