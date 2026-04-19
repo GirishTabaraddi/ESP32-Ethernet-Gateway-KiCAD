@@ -1,6 +1,6 @@
 # 🌐 ESP32 Ethernet & USB-C Gateway
 
-[![KiCad](https://img.shields.io/badge/KiCad-8.0+-blue.svg?style=for-the-badge&logo=kicad)](https://www.kicad.org/)
+[![KiCad](https://img.shields.io/badge/KiCad-9.0.7+-blue.svg?style=for-the-badge&logo=kicad)](https://www.kicad.org/)
 [![ESP32](https://img.shields.io/badge/ESP32-WROOM--32D-red.svg?style=for-the-badge&logo=espressif)](https://www.espressif.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
